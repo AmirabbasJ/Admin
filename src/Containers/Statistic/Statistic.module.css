@@ -1,0 +1,24 @@
+
+.Linebreak {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.Linebreak::before{
+    content: "";
+    width: 100%;
+    height:1px;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.Results {
+    color: white;
+    width: 150px;
+    background-color: #1cc88a;
+    font-size: 1.5rem;
+    position: relative;
+    border-radius: 2rem;
+}

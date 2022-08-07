@@ -1,0 +1,38 @@
+.Input-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.Radio-container {
+    margin: 2rem 0
+}
+
+.Inputs {
+    padding: 0 4rem;
+    direction: rtl;
+    text-align: right;
+}
+
+@media (max-width:768px) {
+    .Inputs {
+        padding: 0 1rem;
+    }
+}
+
+.Input,
+.Label {
+    margin: 1rem;
+
+}
+
+.Header {
+    padding: 1rem;
+    color: #4e73df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

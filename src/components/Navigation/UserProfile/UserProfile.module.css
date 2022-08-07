@@ -1,0 +1,18 @@
+.Profile-container{
+    display: flex;
+    align-items: center;
+}
+.Profile{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.Image{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+.profile-name{
+    margin-right: 5px;
+}

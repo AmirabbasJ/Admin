@@ -1,0 +1,25 @@
+.Input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.Inputs-container:last-child:nth-child(odd) {
+    width: 50%;
+}
+
+.Inputs-container:nth-child(even) {
+    width: 50%;
+}
+
+.Submit-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}

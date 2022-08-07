@@ -1,0 +1,16 @@
+
+.Submit-buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .input{
+    text-align: right;
+      display: flex;
+    justify-content: space-between;
+      padding: 0 .5rem;
+      width: 100%;
+    }
+  .Inputs-Wrapper{
+    width: 100%;
+  } 

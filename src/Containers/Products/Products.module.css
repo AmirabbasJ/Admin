@@ -1,0 +1,40 @@
+.Boxes-wrapper{
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.Box-container{
+    height: 100%;
+   padding:1rem;
+   width:100%;
+}
+.Box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f6fb;
+    border-radius: 36px;
+    cursor: pointer;    
+    padding: 1rem;
+    transform: scale(1);
+    transition-property: box-shadow,transform;
+    transition: 300ms ease-in-out;
+}
+
+.Box-image{
+    width:  6rem; /* or 100px; */
+    
+   
+    height:6rem;  /* or 100px; */
+    
+     
+}
+.Box-Item{
+    text-align: center;
+    padding: .5rem;
+}
+.Box:hover{
+    transform:scale(1.02);
+    box-shadow: 0px 0px 0px  2px #4e73df;
+}

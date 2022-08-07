@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Vazir;
+    src: url('./assets/Font/Vazir.ttf')  format('truetype');
+  }
+ 
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Vazir;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    margin: 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+} 

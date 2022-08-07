@@ -1,0 +1,66 @@
+:root {
+    --green: #1cc88a;
+    --Scooter: #36b9cc;
+    --red:#e74a3b;
+    --blue:#4e73df;
+}
+.Button-container{
+    padding: 0 .5rem;
+}
+@media (max-width:650px) {
+    .Button-container {
+        width: 100%;
+    }
+}
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+    transition-property: background-color, color;
+    transition: 200ms ease-out;
+    border-radius: .5rem;
+    height: 38px;
+    outline: none;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid  var(--blue);
+    background-color: transparent;
+   color: var(--blue);
+   
+}
+.Button.red {
+    color: var(--red);
+    border-color: var(--red);
+}
+
+.Button.red:hover,.Button.red:focus {
+
+    background-color: var(--red);
+}
+
+.Button.green {
+    color: var(--green);
+    border-color: var(--green);
+
+}
+
+.Button.green:hover,.Button.green:focus {
+
+    background-color: var(--green);
+}
+
+.Button.Scooter {
+    color: var(--Scooter);
+    border-color: var(--Scooter);
+}
+
+.Button.Scooter:hover,.Button.Scooter:focus {
+    background-color: var(--Scooter);
+}
+.Button:hover,.Button:focus {
+    color: white;
+    background-color:  var(--blue);
+}

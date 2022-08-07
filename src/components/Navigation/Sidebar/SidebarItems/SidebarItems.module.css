@@ -1,0 +1,45 @@
+.Sidebar-item {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    opacity: .5;
+    text-align: center;
+
+}
+
+.Sidebar-item.smallSize {
+    width: 4rem;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+    .Sidebar-item-text {
+        display: none;
+    }
+
+    .Sidebar-item {
+        width: 4rem;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+}
+
+.Sidebar-item-icon {
+    opacity: .3;
+}
+
+.Sidebar-item:hover,
+.Sidebar-item:hover .Sidebar-item-icon {
+    opacity: 1;
+
+}
+
+.Sidebar-item.active, .Sidebar-item.active .Sidebar-item-icon {
+    opacity: 1;
+
+}

@@ -1,0 +1,35 @@
+
+.Badge {
+    border-radius: 0.35rem;
+    padding: 1px;
+    color: white;
+    position: absolute;
+    background-color: #E74A3B;
+    transform: scale(0.7);
+     transform-origin: top right; 
+    right: -0.5rem;
+     margin-top: -0.25rem; 
+    padding: 0.1em 0.3em;
+     font-size: 75%;
+     font-weight: 700;
+
+}
+
+.Badge.modal{
+   
+     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    font-size: inherit;
+    transform-origin: center;
+    right: 0;
+   position: relative;
+   width: 30px;
+   height: 25px;
+  border-radius: 100%;
+  margin-right: .5rem;
+
+    background-color: #f6c23e;
+}

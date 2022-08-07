@@ -1,0 +1,40 @@
+.Sidebar{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+}
+
+.Sidebar-header{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sidebar-icon::before{
+   font-size: 1.75rem;
+    content: "\f080"; 
+}
+.Sidebar-title{    
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+@media (max-width: 768px){
+    .Sidebar-title{    
+        display: none;
+    }
+        
+}
+
+.Sidebar-items > ul{
+    list-style: none;
+}
+

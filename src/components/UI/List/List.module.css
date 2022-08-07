@@ -1,0 +1,27 @@
+.List-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.List{
+    
+    border: 1px solid #ccc;
+    
+}
+.List-body{
+    margin: 1.5rem 0;
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+.List-header{
+   background-color: #1cc88a;;
+    display: flex;    
+    color: white;
+    padding: .5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}

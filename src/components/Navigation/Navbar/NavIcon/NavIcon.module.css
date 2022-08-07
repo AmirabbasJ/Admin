@@ -1,0 +1,12 @@
+
+.Icon {
+    cursor: pointer;
+    position: relative;
+    margin: 1rem;
+}
+
+
+.Icon:hover {
+
+    color: rgb(182, 182, 182);
+}

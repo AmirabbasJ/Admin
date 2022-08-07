@@ -1,0 +1,35 @@
+.Item{
+    display: flex;
+    flex-direction: column;
+}
+.Event{
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: #44454a;;
+    border-bottom: 1px solid #e3e6f0;;
+    width: 100%;
+    padding: 20px;
+  
+}
+.Events.Show{
+   
+    max-height:200px;
+
+} 
+.Events{
+    transition:max-height  0.27s 0ms  ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+.Title {
+    cursor: pointer;
+    padding: 1.5rem;
+    color: #4e73df;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;;
+
+}
+

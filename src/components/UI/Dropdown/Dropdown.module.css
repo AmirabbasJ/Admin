@@ -1,0 +1,47 @@
+.Dropdown {
+
+    padding: 5px 0;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    position: absolute;
+    border-radius: 5px;
+    right: 10px;
+    top: 95%;
+    transform: scale(.9);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Dropdown.visible {
+    transition-property: transform, opacity;
+    visibility: visible;
+    transition: 100ms ease-in-out;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Dropdown-item {
+    color: #d1d3e2;
+    width: 158px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: .2rem .9rem;
+    font-size: .9em;
+
+}
+.Dropdown-title{
+    color: black;
+    margin-left: .5rem;
+}
+.Dropdown-item:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.Dropdown-item:active .Dropdown-title{
+    color: rgb(247, 247, 247);
+
+}
+.Dropdown-item:active {
+    background-color: #4e73df;
+}

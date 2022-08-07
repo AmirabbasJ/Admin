@@ -1,0 +1,13 @@
+
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+@media (max-width:650px) {
+    .Buttons {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

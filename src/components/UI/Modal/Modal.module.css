@@ -1,0 +1,37 @@
+.Modal{
+    position: absolute;
+    border-radius: .5rem;
+    width: 500px; 
+    padding: .5rem ;
+    /* width: 35%; */
+    max-height: 90%;
+    overflow-y: scroll;
+    background-color: white;
+    opacity: 1;
+    transition-property: transform ,opacity;
+    transition: 300ms ease-in-out;
+}
+@media (max-width:768px){
+    .Modal{
+        width: 50%;
+    }
+}
+.Modal.Hide{
+    opacity: 0;
+    transform: translateY(-50vh);
+}
+.Body{
+    padding: .5rem;
+}
+
+.Close{
+    color: #000000;
+    opacity: .75;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    float: right;
+}
+.Close:hover{
+    opacity: 1;
+}

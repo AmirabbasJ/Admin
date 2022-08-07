@@ -1,0 +1,19 @@
+.Backdrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 70;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: visibility 300ms ease-in-out;
+
+}
+
+.Hidden{
+   visibility: hidden;
+}

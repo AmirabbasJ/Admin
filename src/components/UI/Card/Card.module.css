@@ -1,0 +1,84 @@
+.Card-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0 0.75rem;
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .Card-container {
+        width: 50%;
+
+    }
+    .Card-container:first-child:nth-last-child(2),
+    .Card-container:first-child:nth-last-child(2) ~ .Card-container{
+        width: 100%;
+    }
+}
+
+.Card-container:last-child:nth-child(odd) {
+    width: 100%;
+}
+
+
+.Card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    text-align: right;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    background-color: white;
+    border-radius: .25rem;
+    width: 100%;
+    transition: 200ms ease-in-out;
+    border-bottom: 0.25rem solid #1cc88a;
+    margin-bottom: 2rem;
+
+
+}
+
+.Card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(65, 64, 74, 0.3)
+}
+
+
+.Card-title {
+
+    font-weight: bold;
+    color: #4e73df;
+    padding: 0.75rem 1.25rem;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+
+.Card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+
+
+}
+
+.Card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: #858796;
+
+
+}
+
+.Card-footer {
+    margin-bottom: 2rem;
+    color: #13855c;
+}
